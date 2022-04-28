@@ -34,7 +34,7 @@ p {
 .about__box {
     position: absolute;
     bottom: 640px;
-    left: 90px;
+    left: 85px;
     display: block;
     width: 200px;
     height: 40px;
@@ -43,8 +43,8 @@ p {
     border-radius: 10px;
 }
 .about__title {
-    width: 40px;
-    margin: 60px auto 20px auto;
+    width: 70px;
+    margin: 50px auto 20px auto;
     color: #fff;
 }
 .about__img {
