@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-darsuyiwi</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+</head>
+<body>
+    <div class="about">
+        <span class="about__box"></span>
+        <h2 class="about__title">
+            CARD
+        </h2>
+        <img 
+        class="about__img"
+        src="./images/card.png" 
+        alt="visa card"
+        width="350"
+        height="250">
+        <form class="about__form form-about" method="post" action="https://echo.htmlacademy.ru/" >
+            <label class="form-about__label label-about">
+                <img 
+                src="./images/lock.svg" 
+                alt="lock picture">
+                <input class="form-about__input visually-hidden" type="checkbox" name="card-type_lock">
+                <span class="text-div">
+                    <span class="label-about__text">
+                        Lock card
+                    </span>
+                    <span class="label-about__small">
+                        You can unlock it later
+                    </span>
+                </span>
+                <span class="label-about__switch switch-span">
+                    <span class="switch-span__circle"></span>
+                </span>
+            </label>
+            <label class="form-about__label label-about">
+                <img 
+                src="./images/plane.svg" 
+                alt="lock picture">
+                <input type="checkbox" class="form-about__input visually-hidden" checked name="card-type_plane">
+                <span class="text-div">
+                    <span class="label-about__text">
+                        Payments abroad
+                    </span>
+                    <span class="label-about__small">
+                        Enable your card abroad
+                    </span>
+                </span>
+                <span class="label-about__switch switch-span">
+                    <span class="switch-span__circle"></span>
+                </span>
+            </label>
+            <label class="form-about__label label-about">
+                <img 
+                src="./images/laptop.svg" 
+                alt="lock picture">
+                <input type="checkbox" class="form-about__input visually-hidden" name="card-type_laptop">
+                <span class="text-div">
+                    <span class="label-about__text">
+                        Online payments
+                    </span>
+                    <span class="label-about__small">
+                        Enable online transactions
+                    </span>
+                </span>
+                <span class="label-about__switch switch-span">
+                    <span class="switch-span__circle"></span>
+                </span>
+            </label>
+            <label class="form-about__label label-about">
+                <img 
+                src="./images/atm.svg" 
+                alt="lock picture">
+                <input type="checkbox" class="form-about__input visually-hidden" name="card-type_atm">
+                <span class="text-div">
+                    <span class="label-about__text">
+                        ATM withdrawals
+                    </span>
+                    <span class="label-about__small">
+                        Enable ATM withdrawals
+                    </span>
+                </span>
+                <span class="label-about__switch switch-span">
+                    <span class="switch-span__circle"></span>
+                </span>
+            </label>
+            <button class="visually-hidden" type="submit">test</button>
+        </form>
+    </div>
+</body>
+</html>

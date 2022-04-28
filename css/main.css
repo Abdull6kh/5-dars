@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 10px;
+}
+img {
+    vertical-align: middle;
+}
+p {
+    margin: 0;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+.about {
+    position: relative;
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 15px solid #000;
+    border-radius: 40px;
+    background: linear-gradient(225deg,
+     #5288F4 40%, #ffffff 40% 100%) ;
+}
+.about__box {
+    position: absolute;
+    bottom: 640px;
+    left: 90px;
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 10px;
+}
+.about__title {
+    width: 40px;
+    margin: 60px auto 20px auto;
+    color: #fff;
+}
+.about__img {
+    display: block;
+    width: 350px;
+    height: 250px;
+    margin: 0 auto;
+}
+.about__form {
+    width: 350px;
+    margin: 40px auto 0;
+}
+.form-about__label {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-about__label:nth-child(4) {
+    margin-bottom: 0;
+}
+.form-about__input:checked ~ .label-about__switch {
+    background-color: #5288F4;
+    border: 3px solid #5288F4;
+}
+.form-about__input:checked ~ .label-about__switch > .switch-span__circle {
+    top: -2px;
+    left: 0;
+    transform: translateX(25px);
+    border: 2px solid #5288F4;
+}
+.text-div {
+    width: 174px;
+    margin-left: 25px;
+}
+.label-about__text {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+.label-about__small {
+    display: inline-block;
+    color: #ADAAA9;
+}
+.label-about__switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+    margin-left: 66px;
+    border: 3px solid #E3E3E3;
+    border-radius: 30px;
+    background-color: #fff;
+
+}
+.switch-span__circle {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border: 2px solid #E3E3E3;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
